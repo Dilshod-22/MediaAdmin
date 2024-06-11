@@ -1,0 +1,8 @@
+.login{
+    background-image: url('../../assets/depositphotos_237863150-stock-photo-old-style-movie-projector-close.jpg');
+    background-size: cover; /* Растянуть изображение на весь экран */
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    border: 1px solid black;
+}
