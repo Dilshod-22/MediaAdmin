@@ -62,7 +62,7 @@ const NavbarComponent = () => {
     navigator(link)
     window.localStorage.setItem('link', link)
     console.log(getItem)
-    if(id == 5){
+    if(id === 5){
       logOutHandler()
     }
   }
@@ -79,7 +79,7 @@ const NavbarComponent = () => {
               <Nav className="me-auto">
                 {masButton.map((item, idx) => (
                   <Button key={idx} 
-                    className={`btn ${getItem == item.link ? 'btn-success' : item.color} mx-2`}
+                    className={`btn ${getItem === item.link ? 'btn-success' : item.color} mx-2`}
                     onClick={() => handler(item.id, item.link)}
                   >
                     {item.title}
